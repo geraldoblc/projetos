@@ -11,7 +11,6 @@
     --cor3: #929487;
     --cor4: #FFC745;
     --cor5: #0d0d0d;
-    --cor6: whitesmoke;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-h2: "Playfair Display", serif;
@@ -29,26 +28,20 @@ body {
 }
 
 body {
-    background: url('imagem/mar1m.jpg') no-repeat bottom center;
+    background: url('imagem/mar1.jpg') no-repeat bottom center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 header {
-    min-height: 60px;
+    min-height: 80px;
     text-align: center;
-    padding-top: 30px;  
-}
-
-header > img {
-    width: 200px;
+    padding-top: 40px;  
 }
 
 nav {
-    
     color: var(--cor2);
     padding: 10px;
-    
     text-align: center;
 }
 
@@ -63,18 +56,18 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor2);
-    color: var(--cor0);
+    color: whitesmoke;
 }
 
 input {
     margin-top: 12px;
     padding: 4px;
-    background-color: var(--cor2);
+    background-color: whitesmoke;
     border-radius: 5px;
 }
 
 input:hover {
-    background-color: var(--cor3);
+    background-color: rgba(200, 200, 200, 0.4);
 }
 
 main {
@@ -85,7 +78,6 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    
     border-radius: 10px;
     position: relative;
     height: 100vh;
@@ -104,12 +96,15 @@ main strong {
 }
 
 section {
-    text-align: center;   
+    text-align: center;
+    padding: 25px;
 }
 
 section a {
     width: 50px;
-    font-size: 2.5em;
+    font-size: 3em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 15px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
@@ -144,7 +139,7 @@ h2 {
 }
 
 h3 {
-    background-image: linear-gradient(90deg, #4ebfd9, whitesmoke);
+    background-image: linear-gradient(90deg, #05f2db, whitesmoke);
     font-family: var(--fonte-h2);
     color: var(--cor0);
     text-indent: 8px;
@@ -161,7 +156,7 @@ h4 {
 }
 
 footer {
-    background-color: var(--cor0);
+    background-color: var(--cor2);
     color: whitesmoke;
     text-align: center;
     font-size: 1em;
@@ -176,5 +171,5 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    color: var(--cor2);
+    color: var(--cor0);
 }
