@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --cor0: #05f2db;
+    --cor1: #007A78;
+    --cor2: #1e3888;
+    --cor3: #929487;
+    --cor4: #FFC745;
+    --cor5: #0d0d0d;
+    --cor6: whitesmoke;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-h2: "Playfair Display", serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif, cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background: url('imagem/mar1m.jpg') no-repeat bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    min-height: 60px;
+    text-align: center;
+    padding-top: 30px;  
+}
+
+header > img {
+    width: 200px;
+}
+
+nav {
+    
+    color: var(--cor2);
+    padding: 10px;
+    
+    text-align: center;
+}
+
+nav > a {
+    color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
+
+input {
+    margin-top: 12px;
+    padding: 4px;
+    background-color: var(--cor2);
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color: var(--cor3);
+}
+
+main {
+    background-color: whitesmoke;
+    min-width: 320px;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 10px;
+    position: relative;
+    height: 100vh;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main strong {
+    color: var(--cor0);
+    font-weight: bold;
+}
+
+section {
+    text-align: center;   
+}
+
+section a {
+    width: 50px;
+    font-size: 2.5em;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section a:hover {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.25s;
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    font-weight: normal;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
+}
+
+h2 {
+    font-family: var(--fonte-h2);
+    color: var(--cor0);
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    background-color: var(--cor2);
+}
+
+h3 {
+    background-image: linear-gradient(90deg, #4ebfd9, whitesmoke);
+    font-family: var(--fonte-h2);
+    color: var(--cor0);
+    text-indent: 8px;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+h4 {
+    background-color: var(--cor0);
+    color: whitesmoke;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: var(--cor0);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
+
+footer a {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
