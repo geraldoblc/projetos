@@ -28,7 +28,7 @@ body {
 }
 
 body {
-    background-image: linear-gradient(45deg, #05f2db, whitesmoke);
+    background-image: linear-gradient(45deg, #007A78, whitesmoke);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -152,8 +152,6 @@ section {
 section a.emoji {
     width: 50px;
     font-size: 2.5em;
-    padding-top: 5px;
-    padding-bottom: 5px;
     margin: 9px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
@@ -215,7 +213,7 @@ h4 {
 }
 
 footer {
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     color: whitesmoke;
     text-align: center;
     font-size: 1em;
