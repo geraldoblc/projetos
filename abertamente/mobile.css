@@ -8,6 +8,8 @@
     --cor3: #929487;
     --cor4: #FFC745;
     --cor5: #0d0d0d;
+    #8bf8ed;
+    #005756;
 */
 
 * {
@@ -85,7 +87,7 @@ div.campo > span {
 }
 
 div.campo > input {
-    background-color: #05f2da;
+    background-color: #8bf8ed;
     font-size: 1em;
     width: calc(100% - 48px);
     height: 92%;
@@ -135,7 +137,7 @@ form > a.botao {
 }
 
 form > a.botao:hover {
-    background-color: #05f2da81;
+    background-color: #8bf8ed;
 }
 
 form > a.botao > span {
