@@ -23,7 +23,9 @@
 }
 
 body, html {
-    background-image: linear-gradient(45deg, #007A78, whitesmoke);    
+    background-image: linear-gradient(45deg, #007A78, whitesmoke);
+    width: 100vw;
+    height: 100vh;
 }
 
 main {
