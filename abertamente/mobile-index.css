@@ -4,6 +4,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+/* Typical Device Breakpoints
+---------------------------
+Celular: de 320px até 600px
+Tablet: 601px até 768px
+Desktop: 769px até 1200px
+TV: acima de 1200px
+
+    Outras cores:
+    #8bf8ed;
+    #005756;
+*/
+
 :root {
     --cor0: #05f2db;
     --cor1: #007A78;
@@ -29,8 +41,6 @@ body {
 
 body {
     background-image: linear-gradient(45deg, #007A78, whitesmoke);
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header {
@@ -51,16 +61,17 @@ nav {
 
 nav > a {
     color: var(--cor2);
-    padding: 10px;
+    padding: 6px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
+    margin: 3px;
 }
 
 nav > a:hover {
     background-color: var(--cor2);
-    color: whitesmoke;
+    color: var(--cor0);
 }
 
 input {
@@ -71,19 +82,18 @@ input {
 }
 
 input:hover {
-    background-color: rgba(200, 200, 200, 0.4);
+    background-color: #8bf8ed;
 }
 
 main {
     background-color: whitesmoke;
     min-width: 320px;
-    max-width: 1280px;
+    max-width: 530px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    position: relative;
 }
 
 main p {
@@ -121,19 +131,9 @@ main a:hover {
     flex-wrap: wrap; 
 }
 
-.div1, .div2, .div3 {
-    flex: 1;
-    margin: 50px;
-    max-width: 320px;
-    background-color: rgba(200, 200, 200, 0.4);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-}
-
-.div4, .div5 {
-    flex: 1;
-    margin: 50px;
-    max-width: 530px;
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    width: 100%;
+    margin: 20px;
     background-color: rgba(200, 200, 200, 0.4);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
@@ -142,6 +142,7 @@ main a:hover {
 div img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    width: 100%;
 }
 
 section {
@@ -173,6 +174,7 @@ h1 {
     text-align: center;
     background-color: var(--cor2);
     margin-bottom: 15px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 h2 {
@@ -205,11 +207,11 @@ h3:hover {
 }
 
 h4 {
-    background-color: var(--cor0);
+    background-color: var(--cor3);
+    font-family: var(--fonte-h2);
     color: whitesmoke;
+    font-size: 1.2em;
     padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
 }
 
 footer {
