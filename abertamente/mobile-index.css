@@ -85,6 +85,10 @@ input:hover {
     background-color: #8bf8ed;
 }
 
+input#q {
+    width: 273px;
+}
+
 main {
     background-color: whitesmoke;
     min-width: 320px;
